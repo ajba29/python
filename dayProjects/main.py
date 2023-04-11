@@ -1,9 +1,9 @@
-class Question:
+import turtle
+from turtle import Turtle, Screen
 
-    def __init__(self, text, answer):
-        self.text = text
-        self.answer = answer
+timmy = Turtle()
 
-
-new_q = Question("sf","ew")
-print(new_q.text)
+turtle.shape("turtle")
+turtle.color("blue")
+screen = Screen()
+screen.exitonclick()
